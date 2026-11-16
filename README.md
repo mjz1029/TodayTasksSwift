@@ -3,6 +3,8 @@
 把 Android 版 `今日待办`（Kotlin + Jetpack Compose，AI Studio 导出）逐模块移植成**纯 Swift**：
 不引 Firebase、不引跨平台框架，只用 Apple 系统框架（SwiftUI / Combine / CryptoKit / CommonCrypto / UserNotifications）。
 
+原版在 [mjz1029/Daily-Task](https://github.com/mjz1029/Daily-Task)（Android），两端数据格式互通：任务 JSON 字段一致，`TT1:` 分享码与 `TD1:` 迁移口令可互相识别。
+
 ## 现在的状态
 
 | 层 | 状态 | 验证方式 |
